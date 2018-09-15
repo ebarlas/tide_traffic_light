@@ -1,0 +1,24 @@
+{
+  "tide_station": "9414290",
+  "tide_time_offset": {
+    "low": 179,
+    "high": 131
+  },
+  "tide_level_offset": {
+    "low": 0.82,
+    "high": 1.15
+  },
+  "tide_request_window": {
+    "back": 1,
+    "forward": 7
+  },
+  "water_level_thresholds": {
+    "yellow": 3.0,
+    "green": 4.5
+  },
+  "water_level_minutes": 120,
+  "tide_renew_threshold": 1,
+  "log_file_name": "tide_traffic_light.log",
+  "led_pin": 21,
+  "led_brightness": 155
+}

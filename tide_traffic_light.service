@@ -1,0 +1,13 @@
+[Unit]
+Description=Tide Traffic Light
+
+[Service]
+ExecStart=/home/pi/tide_traffic_light/tide_traffic_light.sh
+WorkingDirectory=/home/pi/tide_traffic_light
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
